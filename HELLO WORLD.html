@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".hola").click(function(){
+			$(".hola").fadeOut(2000);
+			document.getElementById("deathRain").style.color = "blue";
+			life();
+    });
+		$("#deathRain").click(function(){
+			$("#deathRain").fadeOut(2000);
+			document.getElementById("gone").style.color = "red";
+			stop();
+	});
+		$("#gone").click(function(){
+			$("#gone").fadeOut(2000);
+			document.getElementById("sad1").style.color = "blue";
+			sad();
+	});
+		$("#sad1").click(function(){
+			$("#sad1").fadeOut(2000);
+			document.getElementById("sad2").style.color = "red";
+			sad2();
+	});
+		$('#sad2').click(function(){
+			$('#sad2').fadeOut(2000);
+		});
+});
+	var life = function(){
+		var div = document.getElementById('deathRain');
+			for (i = 0; i < 102; i++) { 
+				div.innerHTML = div.innerHTML + 'AUDIENCE ';
+}
+};
+	var stop = function(){
+			var gs = document.getElementById('gone');
+			gs.innerHTML = gs.innerHTML + 'EVERYTHING WILL LEAVE YOU.';
+};
+	var sad = function(){
+			var s = document.getElementById('sad1');
+			s.innerHTML = s.innerHTML + 'AND THEN YOU WILL HAVE NO AUDIENCE.';
+};
+	var sad2 = function(){
+			var s2 = document.getElementById('sad2');
+			s2.innerHTML = s2.innerHTML + 'I BET YOU ARE SAD NOW.';
+	}
+</script>
+<style>
+.hola{
+	font-family: Impact;
+	color: red;
+	font-size: 120px;
+}
+#deathRain{
+	color: white;
+	font-family: Impact;
+	font-size: 120px;
+}
+#gone{
+	color: red;
+	font-family: Impact;
+	font-size: 120px;
+}
+#sad1{
+	color: blue;
+	font-family: Impact;
+	font-size: 120px;
+	}
+#sad2{
+	color: red;
+	font-family: Impact;
+	font-size: 120px;
+}
+</style>
+</head>
+<body id="all">
+<div class="hola"><p>WOW WHAT A GREAT AUDIENCE!</p></div>
+<div id="deathRain"></div>
+<div id="gone"></div>
+<div id="sad1"></div>
+<div id="sad2"></div>
+</body>
+</html>
