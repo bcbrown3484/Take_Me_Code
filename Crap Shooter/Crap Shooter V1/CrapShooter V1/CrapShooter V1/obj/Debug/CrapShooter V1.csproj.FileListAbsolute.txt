@@ -1,0 +1,9 @@
+C:\Users\Brons\Documents\GitHub\Crap Shooter V1\CrapShooter V1\CrapShooter V1\bin\Debug\CrapShooter V1.exe.config
+C:\Users\Brons\Documents\GitHub\Crap Shooter V1\CrapShooter V1\CrapShooter V1\bin\Debug\CrapShooter V1.exe
+C:\Users\Brons\Documents\GitHub\Crap Shooter V1\CrapShooter V1\CrapShooter V1\bin\Debug\CrapShooter V1.pdb
+C:\Users\Brons\Documents\GitHub\Crap Shooter V1\CrapShooter V1\CrapShooter V1\obj\Debug\CrapShooter V1.csprojResolveAssemblyReference.cache
+C:\Users\Brons\Documents\GitHub\Crap Shooter V1\CrapShooter V1\CrapShooter V1\obj\Debug\CrapShooter_V1.mainWindow.resources
+C:\Users\Brons\Documents\GitHub\Crap Shooter V1\CrapShooter V1\CrapShooter V1\obj\Debug\CrapShooter_V1.Properties.Resources.resources
+C:\Users\Brons\Documents\GitHub\Crap Shooter V1\CrapShooter V1\CrapShooter V1\obj\Debug\CrapShooter V1.csproj.GenerateResource.Cache
+C:\Users\Brons\Documents\GitHub\Crap Shooter V1\CrapShooter V1\CrapShooter V1\obj\Debug\CrapShooter V1.exe
+C:\Users\Brons\Documents\GitHub\Crap Shooter V1\CrapShooter V1\CrapShooter V1\obj\Debug\CrapShooter V1.pdb
